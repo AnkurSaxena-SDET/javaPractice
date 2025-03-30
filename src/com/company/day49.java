@@ -28,5 +28,4 @@ public class LoginPage {
     {
         driver.findElement(text_login_loc).click();
     }
-
-} */
+*/
