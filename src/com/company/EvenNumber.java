@@ -1,5 +1,4 @@
 package com.company;
-import java.sql.SQLOutput;
 import java.util.*;
 public class EvenNumber {
     public static void main(String[] args) {
