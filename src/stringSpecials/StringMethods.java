@@ -1,12 +1,17 @@
 package stringSpecials;
 
 
+import java.util.Arrays;
 
 // System.out.println(str4.trim().length());
 // System.out.println(str4.length());
 //System.out.println(str5.charAt(3));
 //System.out.println(str.contains("Wel"));
 //System.out.println(s1.equalsIgnoreCase("WELCOME"));
+//System.out.println(rep.replace('e','X'));
+//System.out.println(str.substring(3,7));
+//System.out.println(str.toUpperCase());//WELCOME
+//System.out.println(str.toLowerCase());//welcome
 public class StringMethods {
     public static void main(String[] args) {
         String s="Welcome";
@@ -54,6 +59,33 @@ public class StringMethods {
         String rep="welcome to java selenium selenium python selenium c#";
         rep.replace('e','X');
         System.out.println(rep.replace('e','X'));
+        System.out.println(rep.replace("selenium", "Playwrite"));
+        System.out.println(rep.replace("welcome","bye").replace("selenium","Welcome"));
+        System.out.println(str.substring(3,7));//come
+        System.out.println(str.substring(0,1));//W
+
+        System.out.println();
+        //toupperCase, toLowerCase method
+        System.out.println(str.toUpperCase());//WELCOME
+        System.out.println(str.toLowerCase());//welcome
+        System.out.println();
+        //split() - split the string into mulitiple parts based on delimeter
+        String email="abc@gmail.com";
+        String a[]=email.split("@");
+        System.out.println(a[0]);//abc
+        System.out.println(a[1]);//@gmail.com
+        System.out.println(Arrays.toString(a)); //[abc, gmail.com]
+        String amount="$15,20,55";
+        System.out.println(amount.replace("$" ,"").replace(",",""));
+        String email2="abc,123@xyz";//abc, 123, xyz
+        String arr1[]=email2.split(",");
+        System.out.println(Arrays.toString(arr1));
+        String arr2[]=arr1[1].split("@");
+        System.out.println(Arrays.toString(arr2));
+        System.out.println(arr1[0]);
+        System.out.println(arr2[0]);
+        System.out.println(arr2[1]);
+        //*, %, &, ^,  ( ) ---you can not use as a deliemeters
         char target='e';
         int count1=0;
         int count2=0;

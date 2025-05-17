@@ -32,5 +32,7 @@ public class FindBiggestElementArray {
             }
         }
         System.out.println("smallest Element is " + min);
+        System.out.println(1+2+3 +"Welcome");
+        System.out.println("Welcome"+1+2+3);
     }
 }
