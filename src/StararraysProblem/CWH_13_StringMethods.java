@@ -1,6 +1,6 @@
 package StararraysProblem;
 
-import java.sql.SQLOutput;
+
 
 public class CWH_13_StringMethods {
     public static void main(String[] args) {
@@ -20,8 +20,8 @@ public class CWH_13_StringMethods {
         System.out.println(str.replace('d','u'));
         System.out.println(str.replace("Ank", "rrt"));
         System.out.println(str);
-        System.out.println(str.startsWith("Ank"));
-        System.out.println(str.endsWith("boy"));
+        //System.out.println(str.startsWith("nku"));
+        //System.out.println(str.endsWith("boy"));
         System.out.println(str.charAt(7));
         System.out.println(str.indexOf("ru"));
     }
